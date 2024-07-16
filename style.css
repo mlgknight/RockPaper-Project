@@ -5,6 +5,8 @@ body{
     
 }
 
+
+
 .logo{
     line-height: 50px;
     font-weight: 900;
@@ -31,16 +33,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 
     
     
 }
 
+.label-container{
+display: flex;
+}
+
 .labels{
-    margin: 30px 0px;
+    margin: auto auto;
+
     justify-content: center;
     display: flex;
-    gap: 200px
+    gap: 139px
 }
 
 .label1{
@@ -55,13 +63,23 @@ body{
     text-align: center;
 }
 
+.choice-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
 button{
-    padding: 20px 50px;
+    padding: 20px 45px;
     background-color: rgb(34, 32, 32);
     border-radius: 200px;
     cursor: pointer;
     margin: 1px 7px;
 }
+
+
 
 button:hover{
     background-color: rgb(235, 171, 9);
@@ -70,7 +88,6 @@ button:hover{
 #player-choice{
     font-size: 50px;
 }
-
 #CPU-choice{
     font-size: 50px;
 }
