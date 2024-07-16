@@ -55,9 +55,9 @@ function determineResult() {
         (computerElement === "✌️" && userChoiceValue === "🫱") ||
         (computerElement === "🫱" && userChoiceValue === "✊")
     ) {
-        winLose.innerHTML = `<h1 class="green">${win}</h1>`;
+        winLose.innerHTML = `<h1 class="green">${lose}</h1>`;
     } else {
-        winLose.innerHTML = `<h1 class="red">${lose}</h1>`;
+        winLose.innerHTML = `<h1 class="red">${win}</h1>`;
     }
 }
 
